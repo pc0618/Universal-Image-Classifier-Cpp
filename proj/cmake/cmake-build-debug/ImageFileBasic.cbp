@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImageFileBasic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\proj\;CMake Files\..\..\..\..\proj\cmake\;CMake Files\..\..\..\..\proj\cmake\modules\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\libtorch\;CMake Files\..\..\..\..\..\libtorch\share\;CMake Files\..\..\..\..\..\libtorch\share\cmake\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\lib\;CMake Files\..\..\..\..\lib\linux\;CMake Files\..\..\..\..\lib\linux\x86_64\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\;CMake Files\..\..\..\..\cmake-build-debug\;CMake Files\..\..\..\..\cmake-build-debug\lib\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network">
+				<Option output="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/network" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/pc0618/libtorch/include"/>
+					<Add directory="/home/pc0618/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 network"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network/fast">
+				<Option output="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/network" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DAT_PARALLEL_OPENMP=1"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/pc0618/libtorch/include"/>
+					<Add directory="/home/pc0618/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 network/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageFileBasic">
+				<Option output="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Debug/ImageFileBasic/ImageFileBasic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DCINDER_GL_CORE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/pc0618/Cinder/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageFileBasic"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageFileBasic/fast">
+				<Option output="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Debug/ImageFileBasic/ImageFileBasic" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add option="-DCINDER_GL_CORE"/>
+					<Add option="-D_UNIX"/>
+					<Add option="-D_GLFW_X11"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/pc0618/Cinder/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageFileBasic/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/src/ImageFileBasicApp.cpp">
+			<Option target="ImageFileBasic"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp">
+			<Option target="network"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../lib/linux/x86_64/ogl/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../cmake-build-debug/lib/linux/x86_64/ogl/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
