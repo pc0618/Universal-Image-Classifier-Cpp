@@ -13,14 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0caf83a0-9ddd-4669-bacf-185c76ff0954" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BasicApp/src/dcgan.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicAppMultiWindow/src/dcgan.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/network.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../proj/cmake/platform_linux.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../proj/cmake/platform_linux.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BasicApp/proj/cmake/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicApp/proj/cmake/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BasicApp/src/BasicApp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicApp/src/BasicApp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BasicAppMultiWindow/proj/cmake/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicAppMultiWindow/proj/cmake/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj/cmake/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/proj/cmake/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DEVELOPMENT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/ImageFileBasic.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/ImageFileBasic.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/proj/cmake/cmake-build-debug/CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/network.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/network.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b7ZQerMq3fwLhSd6IZVa1AbgCe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager" selected="CMake Application.network">
+  <component name="RunManager" selected="CMake Application.ImageFileBasic">
     <configuration name="ImageFileBasic" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageFileBasic" TARGET_NAME="ImageFileBasic" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageFileBasic" RUN_TARGET_NAME="ImageFileBasic">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587985077686</updated>
       <workItem from="1587985078908" duration="584000" />
-      <workItem from="1587991972559" duration="12051000" />
+      <workItem from="1587991972559" duration="13867000" />
     </task>
     <servers />
   </component>
@@ -89,22 +91,22 @@
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
     <state x="690" y="230" width="424" height="492" key="FileChooserDialogImpl/0.27.1920.1052@0.27.1920.1052" timestamp="1587985661239" />
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1588342993635">
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom" timestamp="1588349266880">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1588342993635" />
-    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1588342993635">
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom/0.27.1920.1052@0.27.1920.1052" timestamp="1588349266880" />
+    <state width="1874" height="343" key="GridCell.Tab.0.center" timestamp="1588349266879">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.center/0.27.1920.1052@0.27.1920.1052" timestamp="1588342993635" />
-    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1588342993635">
+    <state width="1874" height="343" key="GridCell.Tab.0.center/0.27.1920.1052@0.27.1920.1052" timestamp="1588349266879" />
+    <state width="1874" height="343" key="GridCell.Tab.0.left" timestamp="1588349266879">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.left/0.27.1920.1052@0.27.1920.1052" timestamp="1588342993635" />
-    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1588342993635">
+    <state width="1874" height="343" key="GridCell.Tab.0.left/0.27.1920.1052@0.27.1920.1052" timestamp="1588349266879" />
+    <state width="1874" height="343" key="GridCell.Tab.0.right" timestamp="1588349266880">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>
-    <state width="1874" height="289" key="GridCell.Tab.0.right/0.27.1920.1052@0.27.1920.1052" timestamp="1588342993635" />
+    <state width="1874" height="343" key="GridCell.Tab.0.right/0.27.1920.1052@0.27.1920.1052" timestamp="1588349266880" />
     <state x="484" y="114" width="1016" height="738" key="SettingsEditor" timestamp="1588345668307">
       <screen x="0" y="27" width="1920" height="1052" />
     </state>

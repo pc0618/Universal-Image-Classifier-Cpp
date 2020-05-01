@@ -61,7 +61,7 @@ int main(int argc, const char* argv[]) {
 
   // Read the image file
   cv::Mat image;
-  image = cv::imread("/home/pc0618/cifar/train/17495_dog.png", cv::IMREAD_COLOR);
+  //image = cv::imread("/home/pc0618/cifar/train/17495_dog.png", cv::IMREAD_COLOR);
 
   // Check for invalid input
   if(! image.data ) {

@@ -12,7 +12,7 @@ The goal of this project will be to create an image classifier that will accurat
 automobiles, vehicles, animals, people etc. The proposed library for building and training the neural network is
 the Tensorflow C++ API, a C++ wrapper for the Tensorflow Machine Learning and Deep Learning framework. I plan on using
 the CIFAR 10 dataset for the model. Here is a link: https://www.tensorflow.org/install/lang_c; the library contains a
-CMake folder.
+CMake folder. This project will also require OpenCV to provide the necessary image augmentation and processing.
 
 By the end of the first week, I hope to have the environment set up (Cinder and PyTorch). By the end of the second week,
 I hope to have the architecture of the neural network defined and the code for the dataset I/O. By the third week, I
