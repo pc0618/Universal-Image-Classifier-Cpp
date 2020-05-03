@@ -3,7 +3,7 @@
 
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/ATen.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/CPUGeneratorImpl.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/CPUGenerator.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/CPUType.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/Context.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/Device.h
@@ -30,14 +30,11 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/TensorNames.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/TensorOperators.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/TensorUtils.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/ThreadLocalDebugInfo.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/ThreadLocalState.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/TypeDefault.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/Utils.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/Version.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/WrapDimUtils.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/ATenGeneral.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/ATenOpList.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/DeprecatedTypeProperties.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/DeprecatedTypePropertiesRegistry.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/Dict.h
@@ -53,6 +50,7 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/MT19937RNGEngine.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/Macros.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/NamedTensor.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/OpsAlreadyMovedToC10.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/Reduction.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/Scalar.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/ScalarType.h
@@ -67,10 +65,10 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/blob.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/KernelFunction.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/KernelFunction_impl.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/impl/WrapFunctionIntoFunctor.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/impl/WrapFunctionIntoRuntimeFunctor.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/impl/boxing.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/boxing.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/kernel_function.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/kernel_functor.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/boxing/kernel_lambda.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/builtin_function.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/dispatch/DispatchKeyExtractor.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/ATen/core/dispatch/DispatchTable.h
@@ -105,7 +103,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/DeviceType.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/DispatchKey.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/DispatchKeySet.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/GeneratorImpl.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/Layout.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/MemoryFormat.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/core/QEngine.h
@@ -132,7 +129,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/BFloat16-inl.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/BFloat16.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/Backtrace.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/Bitset.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/C++17.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/ConstexprCrc.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/c10/util/Deprecated.h
@@ -191,7 +187,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/Dtype.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/DynamicTypes.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/Exceptions.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/Generator.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/THP_export.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/WindowsTorchApiMacro.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/api/include/torch/all.h
@@ -350,7 +345,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/api/module.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/api/object.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/frontend/function_schema_parser.h
-CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/frontend/name_mangler.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/frontend/source_range.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/frontend/tracer.h
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /home/pc0618/libtorch/include/torch/csrc/jit/ir/attributes.h
@@ -490,4 +484,7 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /usr/include/opencv4/opencv2/video/background_segm.hpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /usr/include/opencv4/opencv2/video/tracking.hpp
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /usr/include/opencv4/opencv2/videoio.hpp
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /usr/local/cuda/include/cuda.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /usr/local/cuda/include/cuda_fp16.h
+CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o: /usr/local/cuda/include/cuda_fp16.hpp
 

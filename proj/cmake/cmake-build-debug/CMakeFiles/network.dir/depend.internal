@@ -4,7 +4,7 @@
 CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp.o
  /home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/ATen/ATen.h
- /home/pc0618/libtorch/include/ATen/CPUGeneratorImpl.h
+ /home/pc0618/libtorch/include/ATen/CPUGenerator.h
  /home/pc0618/libtorch/include/ATen/CPUType.h
  /home/pc0618/libtorch/include/ATen/Context.h
  /home/pc0618/libtorch/include/ATen/Device.h
@@ -31,14 +31,11 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/ATen/TensorNames.h
  /home/pc0618/libtorch/include/ATen/TensorOperators.h
  /home/pc0618/libtorch/include/ATen/TensorUtils.h
- /home/pc0618/libtorch/include/ATen/ThreadLocalDebugInfo.h
- /home/pc0618/libtorch/include/ATen/ThreadLocalState.h
  /home/pc0618/libtorch/include/ATen/TypeDefault.h
  /home/pc0618/libtorch/include/ATen/Utils.h
  /home/pc0618/libtorch/include/ATen/Version.h
  /home/pc0618/libtorch/include/ATen/WrapDimUtils.h
  /home/pc0618/libtorch/include/ATen/core/ATenGeneral.h
- /home/pc0618/libtorch/include/ATen/core/ATenOpList.h
  /home/pc0618/libtorch/include/ATen/core/DeprecatedTypeProperties.h
  /home/pc0618/libtorch/include/ATen/core/DeprecatedTypePropertiesRegistry.h
  /home/pc0618/libtorch/include/ATen/core/Dict.h
@@ -54,6 +51,7 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/ATen/core/MT19937RNGEngine.h
  /home/pc0618/libtorch/include/ATen/core/Macros.h
  /home/pc0618/libtorch/include/ATen/core/NamedTensor.h
+ /home/pc0618/libtorch/include/ATen/core/OpsAlreadyMovedToC10.h
  /home/pc0618/libtorch/include/ATen/core/Reduction.h
  /home/pc0618/libtorch/include/ATen/core/Scalar.h
  /home/pc0618/libtorch/include/ATen/core/ScalarType.h
@@ -68,10 +66,10 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/ATen/core/blob.h
  /home/pc0618/libtorch/include/ATen/core/boxing/KernelFunction.h
  /home/pc0618/libtorch/include/ATen/core/boxing/KernelFunction_impl.h
- /home/pc0618/libtorch/include/ATen/core/boxing/impl/WrapFunctionIntoFunctor.h
- /home/pc0618/libtorch/include/ATen/core/boxing/impl/WrapFunctionIntoRuntimeFunctor.h
- /home/pc0618/libtorch/include/ATen/core/boxing/impl/boxing.h
- /home/pc0618/libtorch/include/ATen/core/boxing/impl/make_boxed_from_unboxed_functor.h
+ /home/pc0618/libtorch/include/ATen/core/boxing/boxing.h
+ /home/pc0618/libtorch/include/ATen/core/boxing/kernel_function.h
+ /home/pc0618/libtorch/include/ATen/core/boxing/kernel_functor.h
+ /home/pc0618/libtorch/include/ATen/core/boxing/kernel_lambda.h
  /home/pc0618/libtorch/include/ATen/core/builtin_function.h
  /home/pc0618/libtorch/include/ATen/core/dispatch/DispatchKeyExtractor.h
  /home/pc0618/libtorch/include/ATen/core/dispatch/DispatchTable.h
@@ -106,7 +104,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/c10/core/DeviceType.h
  /home/pc0618/libtorch/include/c10/core/DispatchKey.h
  /home/pc0618/libtorch/include/c10/core/DispatchKeySet.h
- /home/pc0618/libtorch/include/c10/core/GeneratorImpl.h
  /home/pc0618/libtorch/include/c10/core/Layout.h
  /home/pc0618/libtorch/include/c10/core/MemoryFormat.h
  /home/pc0618/libtorch/include/c10/core/QEngine.h
@@ -133,7 +130,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/c10/util/BFloat16-inl.h
  /home/pc0618/libtorch/include/c10/util/BFloat16.h
  /home/pc0618/libtorch/include/c10/util/Backtrace.h
- /home/pc0618/libtorch/include/c10/util/Bitset.h
  /home/pc0618/libtorch/include/c10/util/C++17.h
  /home/pc0618/libtorch/include/c10/util/ConstexprCrc.h
  /home/pc0618/libtorch/include/c10/util/Deprecated.h
@@ -192,7 +188,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/torch/csrc/Dtype.h
  /home/pc0618/libtorch/include/torch/csrc/DynamicTypes.h
  /home/pc0618/libtorch/include/torch/csrc/Exceptions.h
- /home/pc0618/libtorch/include/torch/csrc/Generator.h
  /home/pc0618/libtorch/include/torch/csrc/THP_export.h
  /home/pc0618/libtorch/include/torch/csrc/WindowsTorchApiMacro.h
  /home/pc0618/libtorch/include/torch/csrc/api/include/torch/all.h
@@ -351,7 +346,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /home/pc0618/libtorch/include/torch/csrc/jit/api/module.h
  /home/pc0618/libtorch/include/torch/csrc/jit/api/object.h
  /home/pc0618/libtorch/include/torch/csrc/jit/frontend/function_schema_parser.h
- /home/pc0618/libtorch/include/torch/csrc/jit/frontend/name_mangler.h
  /home/pc0618/libtorch/include/torch/csrc/jit/frontend/source_range.h
  /home/pc0618/libtorch/include/torch/csrc/jit/frontend/tracer.h
  /home/pc0618/libtorch/include/torch/csrc/jit/ir/attributes.h
@@ -491,3 +485,6 @@ CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/network.cpp
  /usr/include/opencv4/opencv2/video/background_segm.hpp
  /usr/include/opencv4/opencv2/video/tracking.hpp
  /usr/include/opencv4/opencv2/videoio.hpp
+ /usr/local/cuda/include/cuda.h
+ /usr/local/cuda/include/cuda_fp16.h
+ /usr/local/cuda/include/cuda_fp16.hpp

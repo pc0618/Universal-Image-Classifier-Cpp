@@ -18,6 +18,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -34,10 +37,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/111/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/112/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -81,6 +84,11 @@ network: CMakeFiles/network.dir/home/pc0618/Cinder/samples/ImageFileBasic/src/ne
 network: CMakeFiles/network.dir/build.make
 network: /home/pc0618/libtorch/lib/libtorch.so
 network: /home/pc0618/libtorch/lib/libc10.so
+network: /usr/local/cuda/lib64/stubs/libcuda.so
+network: /usr/local/cuda/lib64/libnvrtc.so
+network: /usr/local/cuda/lib64/libnvToolsExt.so
+network: /usr/local/cuda/lib64/libcudart.so
+network: /home/pc0618/libtorch/lib/libc10_cuda.so
 network: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_gapi.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.1.1
@@ -90,7 +98,14 @@ network: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.1.1
+network: /home/pc0618/libtorch/lib/libc10_cuda.so
 network: /home/pc0618/libtorch/lib/libc10.so
+network: /usr/local/cuda/lib64/libcufft.so
+network: /usr/local/cuda/lib64/libcurand.so
+network: /usr/lib/x86_64-linux-gnu/libcublas.so
+network: /usr/lib/x86_64-linux-gnu/libcudnn.so
+network: /usr/local/cuda/lib64/libnvToolsExt.so
+network: /usr/local/cuda/lib64/libcudart.so
 network: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.1.1
 network: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.1.1

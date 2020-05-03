@@ -1,20 +1,17 @@
 #include <torch/torch.h>
 #include <torch/script.h> // One-stop header
-
 #include <ctime>
 #include <iostream>
 #include <memory>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp> // opencv input/output
 #include <opencv2/imgproc/imgproc.hpp> // cvtColor
-
 // CIFAR-10 classes
 const std::vector<std::string> classes{"plane", "car", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"};
 
 at::Tensor imageToTensor(cv::Mat & image);
 void predict(torch::jit::script::Module & module, cv::Mat & image);
-
-// Adapted from https://github.com/goldsborough/examples/blob/cpp/cpp/mnist/mnist.cpp#L106
+// Adapted from https://github.com/LaurentMazare/deep-models
 // Parameters: means and stddevs lists size must match number of channels for input Tensor
 //             e.g., means and stddevs must be of size C for Tensor of shape 1 x C x H x W
 struct Normalize : public torch::data::transforms::TensorTransform<> {
@@ -38,37 +35,28 @@ struct Normalize : public torch::data::transforms::TensorTransform<> {
     }
     return input;
   }
-
   std::list<torch::Tensor> means_, stddevs_;
 };
 
 int main(int argc, const char* argv[]) {
-  if (argc != 3) {
-    std::cerr << "usage: vgg-predict <path-to-exported-script-module> <path-to-input-image>" << std::endl;
-    return -1;
-  }
   // Deserialize the ScriptModule from a file using torch::jit::load().
   torch::jit::script::Module module;
   try {
-    module = torch::jit::load("/home/pc0618/Desktop/CS-126-Final/pytorch-cpp/-traced-train.pt");
+    module = torch::jit::load("/home/pc0618/Desktop/model.pt");
   }
   catch (const c10::Error& e) {
     std::cerr << "Error loading the model\n";
     return -1;
   }
-
   std::cout << "Model loaded" << std::endl;
-
   // Read the image file
   cv::Mat image;
-  //image = cv::imread("/home/pc0618/cifar/train/17495_dog.png", cv::IMREAD_COLOR);
-
+  image = cv::imread("/home/pc0618/cifar/train/50_truck.png", cv::IMREAD_COLOR);
   // Check for invalid input
   if(! image.data ) {
     std::cout <<  "Could not open or find the image" << std::endl ;
     return -1;
   }
-
   // Check for cuda
   if (torch::cuda::is_available()) {
     std::cout << "Moving model to GPU" << std::endl;
@@ -77,21 +65,17 @@ int main(int argc, const char* argv[]) {
   std::clock_t start{std::clock()};
   predict(module, image);
   std::cout << "Time: " << (std::clock() - start) / (double)(CLOCKS_PER_SEC) << " seconds" << std::endl;
-
   return 0;
 }
 
 at::Tensor imageToTensor(cv::Mat & image) {
   // BGR to RGB, which is what our network was trained on
   cv::cvtColor(image, image, cv::COLOR_BGR2RGB);
-
   // Convert Mat image to tensor 1 x C x H x W
   at::Tensor tensorImage = torch::from_blob(image.data, {1, image.rows, image.cols, image.channels()}, at::kByte);
-
   // Normalize tensor values from [0, 255] to [0, 1]
   tensorImage = tensorImage.toType(at::kFloat);
   tensorImage = tensorImage.div_(255);
-
   // Transpose the image for [channels, rows, columns] format of torch tensor
   tensorImage = at::transpose(tensorImage, 1, 2);
   tensorImage = at::transpose(tensorImage, 1, 3);
@@ -100,12 +84,10 @@ at::Tensor imageToTensor(cv::Mat & image) {
 
 void predict(torch::jit::script::Module & module, cv::Mat & image) {
   at::Tensor tensorImage{imageToTensor(image)};
-
   // Normalize
   struct Normalize normalizeChannels({0.4914, 0.4822, 0.4465}, {0.2023, 0.1994, 0.2010});
   tensorImage = normalizeChannels(tensorImage);
   //std::cout << "Image tensor shape: " << tensorImage.sizes() << std::endl;
-
   // Move tensor to CUDA memory
   tensorImage = tensorImage.to(at::kCUDA);
   // Forward pass

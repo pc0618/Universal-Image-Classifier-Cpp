@@ -18,6 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/opencv4"
   "/home/pc0618/libtorch/include"
   "/home/pc0618/libtorch/include/torch/csrc/api/include"
+  "/usr/local/cuda/include"
   )
 
 # Targets to which this target links.

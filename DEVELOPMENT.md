@@ -7,12 +7,12 @@ Requirements:
 -An Nvidia GPU
 -Nvidia cuDNN 7+
 -Nvidia Cuda
--PyTorch C++ Frontend (Libtorch)
+-PyTorch C++ Frontend (LibTorch)
 -OpenCV
 
 Week 1:
 -Installed Nvidia Deep Learning stack (CUDA and cuDNN)
--Switched project over to Ubuntu to get Libtorch to compile
+-Switched project over to Ubuntu to get LibTorch to compile
 -Set up Cinder
 
 Week 2:

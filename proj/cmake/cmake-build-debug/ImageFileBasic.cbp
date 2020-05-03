@@ -5,7 +5,7 @@
 		<Option title="ImageFileBasic"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\proj\;CMake Files\..\..\..\..\proj\cmake\;CMake Files\..\..\..\..\proj\cmake\modules\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\libtorch\;CMake Files\..\..\..\..\..\libtorch\share\;CMake Files\..\..\..\..\..\libtorch\share\cmake\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\lib\;CMake Files\..\..\..\..\lib\linux\;CMake Files\..\..\..\..\lib\linux\x86_64\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\;CMake Files\..\..\..\..\cmake-build-debug\;CMake Files\..\..\..\..\cmake-build-debug\lib\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\Debug\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\proj\;CMake Files\..\..\..\..\proj\cmake\;CMake Files\..\..\..\..\proj\cmake\modules\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\libtorch\;CMake Files\..\..\..\..\..\libtorch\share\;CMake Files\..\..\..\..\..\libtorch\share\cmake\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\lib\;CMake Files\..\..\..\..\lib\linux\;CMake Files\..\..\..\..\lib\linux\x86_64\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\lib\linux\x86_64\ogl\Debug\;CMake Files\..\..\..\..\cmake-build-debug\;CMake Files\..\..\..\..\cmake-build-debug\lib\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\;CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\Debug\;CMake Files\cmake-build-debug\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug"/>
@@ -38,6 +38,7 @@
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/pc0618/libtorch/include"/>
 					<Add directory="/home/pc0618/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -65,6 +66,7 @@
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/pc0618/libtorch/include"/>
 					<Add directory="/home/pc0618/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -188,6 +190,9 @@
 		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\"/>
 		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
 		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/mkl.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
 		</Unit>
@@ -199,6 +204,27 @@
 		</Unit>
 		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/public/utils.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
 		</Unit>
 		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
@@ -217,6 +243,12 @@
 		</Unit>
 		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/../../../../cmake-build-debug/lib/linux/x86_64/ogl/Debug/cinderTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\cmake-build-debug\lib\linux\x86_64\ogl\Debug\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/pc0618/Cinder/samples/ImageFileBasic/proj/cmake/cmake-build-debug/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
